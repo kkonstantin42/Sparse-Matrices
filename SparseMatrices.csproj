@@ -59,18 +59,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GUI\MainWindow.cs">
+    <Compile Include="src\GUI\MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\MainWindow.Designer.cs">
+    <Compile Include="src\GUI\MainWindow.Designer.cs">
       <DependentUpon>MainWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tools\MyRandom.cs" />
-    <Compile Include="PolynomialFactory.cs" />
-    <Compile Include="Launch.cs" />
+    <Compile Include="src\Tools\MyRandom.cs" />
+    <Compile Include="src\PolynomialFactory.cs" />
+    <Compile Include="src\Launch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SymmetricMatrix.cs" />
-    <EmbeddedResource Include="GUI\MainWindow.resx">
+    <Compile Include="src\SymmetricMatrix.cs" />
+    <EmbeddedResource Include="src\GUI\MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
