@@ -4,3 +4,4 @@ $ cat .gitignore
 doc/
 dox/
 obj/
+bin/
