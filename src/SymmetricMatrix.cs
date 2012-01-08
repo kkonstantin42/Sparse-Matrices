@@ -10,5 +10,6 @@ namespace SparseMatrices
     /// </summary>
     class SymmetricMatrix
     {
+
     }
 }

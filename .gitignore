@@ -1,0 +1,6 @@
+$ cat .gitignore
+*.exe
+*.dll
+doc/
+dox/
+obj/
